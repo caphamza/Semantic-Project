@@ -1,0 +1,414 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/mohsin/ontologies/2019/4/Laliga"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/mohsin/ontologies/2019/4/Laliga">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#Real_Madrid"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sponsor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Broadcaster2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#StadiumOwned"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Broadcaster4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stadiums"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atletico_Madrid_Sponsors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Girona_Budget"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gatafe_FC_Budget"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Girona_sponsor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gatafe_Sponor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Barca_Sponsor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#own"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laliga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TvBroadcasters"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FC_Barcelona_Stadium"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#have_a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teams"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atletico_Madrid_Stadium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Real_Madrid_Stadium"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#have"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Broadcaster1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Broadcaster"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FC_Barcelona"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Broadcaster5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atletico_Madrid_Budget"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Broadcaster3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Girona"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#team"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atletico_Madrid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Girona_Stadium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TeamNetWorth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FC_Barcelona_Budget"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Real_Madrid_Sponor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gatafe_FC_Stadium"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Budget"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sponsors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gatafe_FC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Real_Madrid_Budget"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Sponsors"/>
+        <Class IRI="#Laliga"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stadiums"/>
+        <Class IRI="#Laliga"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TeamNetWorth"/>
+        <Class IRI="#Laliga"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teams"/>
+        <Class IRI="#Laliga"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TvBroadcasters"/>
+        <Class IRI="#Laliga"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Sponsors"/>
+        <Class IRI="#Stadiums"/>
+        <Class IRI="#TeamNetWorth"/>
+        <Class IRI="#Teams"/>
+        <Class IRI="#TvBroadcasters"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Teams"/>
+        <NamedIndividual IRI="#Atletico_Madrid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sponsors"/>
+        <NamedIndividual IRI="#Atletico_Madrid_Sponsors"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Teams"/>
+        <NamedIndividual IRI="#FC_Barcelona"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Teams"/>
+        <NamedIndividual IRI="#Girona"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TeamNetWorth"/>
+        <NamedIndividual IRI="#Girona_Budget"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stadiums"/>
+        <NamedIndividual IRI="#Girona_Stadium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Teams"/>
+        <NamedIndividual IRI="#Real_Madrid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TeamNetWorth"/>
+        <NamedIndividual IRI="#Real_Madrid_Budget"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stadiums"/>
+        <NamedIndividual IRI="#Real_Madrid_Stadium"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Atletico_Madrid"/>
+        <NamedIndividual IRI="#Atletico_Madrid_Stadium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#own"/>
+        <NamedIndividual IRI="#Atletico_Madrid"/>
+        <NamedIndividual IRI="#Atletico_Madrid_Budget"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#FC_Barcelona"/>
+        <NamedIndividual IRI="#FC_Barcelona_Stadium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#own"/>
+        <NamedIndividual IRI="#FC_Barcelona"/>
+        <NamedIndividual IRI="#FC_Barcelona_Stadium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Gatafe_FC"/>
+        <NamedIndividual IRI="#Gatafe_FC_Stadium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#own"/>
+        <NamedIndividual IRI="#Gatafe_FC"/>
+        <NamedIndividual IRI="#Gatafe_FC_Stadium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Girona"/>
+        <NamedIndividual IRI="#Girona_Budget"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#own"/>
+        <NamedIndividual IRI="#Girona"/>
+        <NamedIndividual IRI="#Girona_Stadium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Real_Madrid"/>
+        <NamedIndividual IRI="#Real_Madrid_Stadium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#own"/>
+        <NamedIndividual IRI="#Real_Madrid"/>
+        <NamedIndividual IRI="#Real_Madrid_Budget"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#team"/>
+        <NamedIndividual IRI="#Atletico_Madrid"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Atletico Madrid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Budget"/>
+        <NamedIndividual IRI="#Atletico_Madrid_Budget"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">650 Million Pound</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sponsor"/>
+        <NamedIndividual IRI="#Atletico_Madrid_Sponsors"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">KFC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#team"/>
+        <NamedIndividual IRI="#Atletico_Madrid_Stadium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Wanda Stadium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sponsor"/>
+        <NamedIndividual IRI="#Barca_Sponsor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rakaten</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#team"/>
+        <NamedIndividual IRI="#Broadcaster1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Bein Sports</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#team"/>
+        <NamedIndividual IRI="#Broadcaster2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sky Sports</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Broadcaster"/>
+        <NamedIndividual IRI="#Broadcaster3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tensports</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Broadcaster"/>
+        <NamedIndividual IRI="#Broadcaster4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">skypacific</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Broadcaster"/>
+        <NamedIndividual IRI="#Broadcaster5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tvs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#team"/>
+        <NamedIndividual IRI="#FC_Barcelona"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">FCB</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Budget"/>
+        <NamedIndividual IRI="#FC_Barcelona_Budget"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">500 MILLION POUND</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#StadiumOwned"/>
+        <NamedIndividual IRI="#FC_Barcelona_Stadium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Camp NOU</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#team"/>
+        <NamedIndividual IRI="#Gatafe_FC"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gatafe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Budget"/>
+        <NamedIndividual IRI="#Gatafe_FC_Budget"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">91 million pound</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#StadiumOwned"/>
+        <NamedIndividual IRI="#Gatafe_FC_Stadium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">perez stadium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sponsor"/>
+        <NamedIndividual IRI="#Gatafe_Sponor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mcdonald</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#team"/>
+        <NamedIndividual IRI="#Girona"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Girona</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sponsor"/>
+        <NamedIndividual IRI="#Girona_sponsor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">captil real estate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#team"/>
+        <NamedIndividual IRI="#Real_Madrid"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Real Madrid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sponsor"/>
+        <NamedIndividual IRI="#Real_Madrid_Sponor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Addidas</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#have"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#have"/>
+        <Class IRI="#Teams"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#have_a"/>
+        <Class IRI="#Teams"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#own"/>
+        <Class IRI="#Teams"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#have"/>
+        <Class IRI="#TeamNetWorth"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#have_a"/>
+        <Class IRI="#Sponsors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#own"/>
+        <Class IRI="#Stadiums"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#StadiumOwned"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#team"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Broadcaster"/>
+        <Class IRI="#TvBroadcasters"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#StadiumOwned"/>
+        <Class IRI="#Stadiums"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#team"/>
+        <Class IRI="#Teams"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Broadcaster"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#StadiumOwned"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#team"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
